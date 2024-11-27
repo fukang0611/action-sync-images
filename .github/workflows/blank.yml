@@ -40,4 +40,4 @@ jobs:
     # 使用 Skopeo 工具同步镜像到 Docker Hub
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy docker://alpine:latest docker://crpi-4v627lfulndt6g9s.cn-beijing.personal.cr.aliyuncs.com/fukang/alpine:latest
+        skopeo copy docker://coturn/coturn:latest docker://crpi-4v627lfulndt6g9s.cn-beijing.personal.cr.aliyuncs.com/fukang/coturn:latest
