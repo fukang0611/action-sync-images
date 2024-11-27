@@ -39,4 +39,4 @@ jobs:
     # 使用 Skopeo 工具同步镜像到 Docker Hub
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-        skopeo copy --all docker://nginx:latest docker://docker.io/hnnpfk/nginx:latest
+        skopeo copy docker://alpine:latest docker://docker.io/hnnpfk/alpine:latest
