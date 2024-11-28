@@ -40,4 +40,4 @@ jobs:
     # 使用 Skopeo 工具同步镜像到 Docker Hub
     - name: Use Skopeo Tools Sync Image to Aliyun Repository
       run: |
-        skopeo copy docker://openjdk:17-jdk-slim docker://crpi-4v627lfulndt6g9s.cn-beijing.personal.cr.aliyuncs.com/fukang/openjdk:17-jdk-slim
+        skopeo copy docker://openjdk:8-jdk-slim docker://crpi-4v627lfulndt6g9s.cn-beijing.personal.cr.aliyuncs.com/fukang/openjdk:8-jdk-slim
